@@ -1,0 +1,124 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the primary purpose of a bus structure in I/O organization?",
+      "options": [
+        "To control the speed of the CPU",
+        "To transfer data between I/O devices and the CPU",
+        "To store program instructions",
+        "To regulate power supply"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The bus structure facilitates communication between the CPU, memory, and I/O devices. It transmits address, data, and control signals necessary for data transfer."
+    },
+    {
+      "id": 2,
+      "question": "In memory-mapped I/O, what relationship exists between I/O devices and memory?",
+      "options": [
+        "They are physically separated.",
+        "They have different address spaces.",
+        "They share the same address space.",
+        "They use separate buses."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Memory-mapped I/O integrates I/O devices into the memory address space, allowing the CPU to use the same instructions to access both memory and I/O device registers."
+    },
+    {
+      "id": 3,
+      "question": "What technique allows I/O devices to signal the CPU when they're ready for data transfer?",
+      "options": [
+        "Polling",
+        "DMA",
+        "Memory-mapped I/O",
+        "Interrupts"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Interrupts enable I/O devices to signal the CPU when ready, avoiding constant polling and improving efficiency."
+    },
+    {
+      "id": 4,
+      "question": "What is DMA (Direct Memory Access)?",
+      "options": [
+        "A type of ROM",
+        "A method for high-speed I/O devices to transfer data directly to memory",
+        "A way to increase CPU clock speed",
+        "A memory mapping function"
+      ],
+      "correctAnswer": 1,
+      "explanation": "DMA allows high-speed I/O devices to transfer data directly to memory without CPU intervention, improving performance for large data transfers."
+    },
+    {
+      "id": 5,
+      "question": "What type of memory is volatile and requires constant power to retain its contents?",
+      "options": [
+        "ROM",
+        "EEPROM",
+        "SRAM",
+        "Flash memory"
+      ],
+      "correctAnswer": 2,
+      "explanation": "SRAM (Static RAM) is volatile and loses its contents when power is lost, making it unsuitable for long-term data storage but ideal for high-speed cache memory."
+    },
+    {
+      "id": 6,
+      "question": "What type of memory is non-volatile and its contents are written during manufacturing and are permanent?",
+      "options": [
+        "SRAM",
+        "DRAM",
+        "ROM",
+        "CAM"
+      ],
+      "correctAnswer": 2,
+      "explanation": "ROM (Read-Only Memory) permanently stores data written during manufacturing, making it ideal for boot instructions and firmware."
+    },
+    {
+      "id": 7,
+      "question": "Which memory type is best suited for applications where speed is the primary concern?",
+      "options": [
+        "DRAM",
+        "Magnetic Disk",
+        "SRAM",
+        "Flash memory"
+      ],
+      "correctAnswer": 2,
+      "explanation": "SRAM is faster than DRAM, magnetic disks, and flash memory, making it the best choice for applications where speed is critical, such as cache memory."
+    },
+    {
+      "id": 8,
+      "question": "What is the primary purpose of cache memory?",
+      "options": [
+        "To increase the size of the main memory",
+        "To decrease the cost of the main memory",
+        "To increase the speed of memory access",
+        "To store the operating system"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Cache memory increases the speed of memory access by storing frequently accessed data and instructions, bridging the speed gap between the CPU and main memory."
+    },
+    {
+      "id": 9,
+      "question": "What is 'locality of reference' in the context of cache memory?",
+      "options": [
+        "The tendency of programs to access memory locations randomly",
+        "The technique for mapping memory blocks to cache blocks",
+        "The principle that recently accessed data is likely to be accessed again soon",
+        "The algorithm for replacing blocks in the cache"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Locality of reference refers to the tendency of programs to access the same memory locations repeatedly or nearby locations, which is the basis for cache memory's effectiveness."
+    },
+    {
+      "id": 10,
+      "question": "Which cache mapping function provides the highest flexibility but involves a more complex search process?",
+      "options": [
+        "Direct mapping",
+        "Set-associative mapping",
+        "Associative mapping",
+        "None of the above"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Associative mapping allows any memory block to be placed in any cache block, providing maximum flexibility but requiring a more complex search process compared to other mapping techniques."
+    }
+  ]
+}
