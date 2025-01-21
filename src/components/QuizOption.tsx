@@ -30,7 +30,11 @@ export const QuizOption: React.FC<QuizOptionProps> = ({
     if (!selected) return 'border-gray-200';
     if (correct === null) return 'border-blue-500';
     return correct ? 'border-green-500' : 'border-red-500';
-  };
+
+ QuizOption.map((quizOption)=>{
+   if(quizOption.correct){
+     return{'border-green-500','bg-green-50'}}
+ });
 
   return (
     <button
