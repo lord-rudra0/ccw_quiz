@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Brain } from 'lucide-react';
+// import { Brain } from 'lucide-react';
 import Home from './components/Home/Home';
 import Quiz from './components/Quiz/Quiz';
 import Results from './components/Results/Results';
